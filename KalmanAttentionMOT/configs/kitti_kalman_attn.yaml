@@ -1,0 +1,18 @@
+tracker:
+  embedding_dim: 192
+  num_heads: 6
+  max_age: 30
+  history: 8
+  detection_threshold: 0.5
+  gating_threshold: 11.345
+data:
+  dataset: kitti
+  batch_size: 1
+  num_workers: 4
+  shuffle: False
+  kitti_root: /data/kitti
+  kitti_split: training
+training:
+  epochs: 5
+  lr: 0.0005
+  device: cuda

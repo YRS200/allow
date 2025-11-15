@@ -1,0 +1,16 @@
+tracker:
+  embedding_dim: 96
+  num_heads: 3
+  max_age: 20
+  history: 4
+  detection_threshold: 0.25
+  gating_threshold: 7.779
+data:
+  dataset: synthetic
+  batch_size: 2
+  num_workers: 0
+  shuffle: True
+training:
+  epochs: 3
+  lr: 0.0015
+  device: cpu
